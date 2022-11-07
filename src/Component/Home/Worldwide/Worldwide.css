@@ -1,0 +1,45 @@
+.world {
+  background: #f8f9fa;
+  padding: 100px 0;
+}
+
+.app_world {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.app_world article {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.app_world article span {
+  display: inline-block;
+  margin-bottom: 24px;
+}
+.app_world article h2 {
+  margin-bottom: 8px;
+  font-size: 11px;
+  letter-spacing: 2.5px;
+  font-weight: normal;
+}
+.app_world article p {
+  margin-bottom: 16px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #b3b3b3;
+}
+@media (max-width: 991px) {
+  .world {
+    padding: 50px 0;
+  }
+  .app_world {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .app_world {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

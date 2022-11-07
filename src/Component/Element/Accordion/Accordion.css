@@ -1,0 +1,79 @@
+.accordion {
+  padding: 100px 0 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordion .container > h2 {
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-align: left;
+}
+.app_accordion {
+  background-color: #fff;
+}
+.accordion .btn {
+  min-width: 100%;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  border: none;
+  background-color: #fff;
+  color: #333333;
+  background-color: transparent;
+  cursor: pointer;
+  border-bottom: 1px solid #bb4592;
+  transition: 0.3s ease;
+}
+.accordion .btn.active {
+  background-color: #bb4592;
+  transition: 0.3s ease;
+}
+.accordion .btn.active h2,
+.accordion .btn.active span {
+  color: #fff;
+}
+
+.accordion .btn:focus {
+  outline: none;
+}
+.accordion .btn h2 {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #333333;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+.accordion .accordion_content {
+  overflow: hidden;
+  height: 0;
+  transition-duration: all 3s ease;
+}
+.accordion .accordion_content.active {
+  height: auto;
+  transition: 0.3s ease;
+}
+.accordion .accordion_content p {
+  transition-duration: 3s ease;
+  padding: 20px 20px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333333;
+}
+
+@media (max-width: 991px) {
+  .accordion {
+    padding: 50px 0;
+  }
+  .accordion .accordion_content p {
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .accordion .btn h2 {
+    letter-spacing: 0px;
+  }
+}

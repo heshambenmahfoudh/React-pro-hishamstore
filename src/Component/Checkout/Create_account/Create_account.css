@@ -1,0 +1,49 @@
+.app_account span {
+  display: flex;
+}
+
+.app_account span {
+  width: max-content;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.app_account span input {
+  width: 13px;
+  height: 13px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.app_account span small {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #000;
+}
+.info_create p {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 90%;
+}
+.account_accordion {
+  margin-bottom: 16px;
+  transition-duration: 4s;
+}
+
+.app_account .account_textarea {
+  display: flex;
+  flex-direction: column;
+}
+.app_account .account_textarea textarea {
+  resize: vertical;
+  padding: 10px;
+  border: none;
+  border: 1px solid #43434d;
+  transition-duration: 0.3s;
+  font-size: 16px;
+  min-height: 200px;
+}
+.app_account .account_textarea textarea:focus {
+  outline: none;
+  border: 1px solid #b84592ed;
+}

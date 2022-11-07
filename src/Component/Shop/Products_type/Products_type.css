@@ -1,0 +1,23 @@
+.app_content_left li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #f8f9fa;
+  min-width: 100%;
+}
+.app_content_left li a {
+  display: flex;
+  font-size: 16px;
+  color: #333333;
+}
+
+.app_content_left li small {
+  color: #ccc;
+  font-size: 12px;
+}
+.app_content_left li:hover small {
+  color: #333333;
+}

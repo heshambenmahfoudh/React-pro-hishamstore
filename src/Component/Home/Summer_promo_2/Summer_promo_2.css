@@ -1,0 +1,69 @@
+.summer_pro_2 {
+  padding: 100px 0;
+  background-color: #fff;
+  position: relative;
+}
+.summer_pro_2 .summer_back_2 {
+  background-image: url(../../aseets/hero-slider-3-min.jpg);
+  background-size: cover;
+  height: 622px;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  z-index: -10px;
+  align-items: center;
+  position: relative;
+}
+.summer_pro_2 .summer_back_2::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.summer_pro_2 .summer_content_2 {
+  text-align: center;
+  z-index: 100;
+}
+
+.summer_content_2 h6 {
+  font-size: 11px;
+  color: #fff;
+}
+.summer_content_2 h1 {
+  font-size: 48px;
+  margin-bottom: 24px;
+  color: #fff;
+  font-weight: normal;
+}
+.summer_content_2 p {
+  line-height: 1.5;
+  font-size: 16px;
+  margin-bottom: 48px;
+  width: 46%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+}
+.summer_content_2 button {
+  font-weight: bold;
+  font-size: 11px;
+  padding: 17px 33.1px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+  .summer_pro_2 {
+    padding: 50px 0;
+  }
+  .summer_content_2 p {
+    width: 100%;
+  }
+}

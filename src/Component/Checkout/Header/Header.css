@@ -1,0 +1,34 @@
+.header_checkout {
+  height: 40vh;
+  background: #f8f9fa;
+  width: 100%;
+  min-height: 200px;
+  position: relative;
+}
+.header_checkout .header_content {
+  position: absolute;
+  top: 99%;
+  left: 50%;
+  transform: translate(-50%, -99%);
+}
+
+.header_checkout .header_content h2 {
+  margin-bottom: 8px;
+  font-size: 40px;
+  color: #333333;
+  font-weight: normal;
+  height: 48px;
+  text-align: center;
+}
+.header_checkout .header_content li {
+  margin-bottom: 24px;
+  font-size: 16px;
+  text-align: center;
+}
+.header_checkout .header_content li a {
+  color: #b8459f;
+}
+.header_checkout .header_content li span {
+  font-weight: bold;
+  color: #333333;
+}

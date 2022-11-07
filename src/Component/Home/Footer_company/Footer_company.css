@@ -1,0 +1,36 @@
+.app_linlk {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: calc(100% - 41.7%);
+  gap: 30px;
+}
+.app_linlk article h2 {
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #333333;
+  font-weight: normal;
+}
+.app_linlk article .app_link_one,
+.app_linlk article .app_link_two,
+.app_linlk article .app_link_three {
+  display: inline-block;
+  margin-bottom: 16px;
+  min-width: 100%;
+  min-width: 33.33%;
+}
+.app_linlk article .app_link_one li a,
+.app_linlk article .app_link_two li a,
+.app_linlk article .app_link_three li a {
+  margin-bottom: 8px;
+  display: block;
+  font-size: 14px;
+  color: #000;
+  max-width: 100%;
+}
+
+@media (max-width: 991px) {
+  .app_linlk {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

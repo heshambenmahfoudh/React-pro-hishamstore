@@ -1,0 +1,127 @@
+.coupon_code {
+  min-width: calc(50% - 15px);
+}
+.coupon_code h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: #000;
+  font-weight: normal;
+}
+
+.enter_code {
+  border: 1px solid #dee2e6;
+  padding: 48px;
+  margin-bottom: 48px;
+}
+.enter_code p {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+.inter_code_form {
+  display: flex;
+  align-items: center;
+}
+.enter_code input[type='text'] {
+  padding: 10px;
+  height: 48px;
+  width: 261px;
+  border: none;
+  border: 1px solid #000;
+  border-right: 0;
+  font-size: 16px;
+}
+.enter_code input[type='text']:focus {
+  outline: none;
+  border: 1px solid #c05aaa;
+}
+.enter_code input[type='submit'] {
+  height: 48px;
+  width: 72px;
+  padding: 10px;
+  border: none;
+  border: 1px solid #000;
+  border-left: 0;
+  background: #000;
+  color: #fff;
+  font-size: 11px;
+  cursor: pointer;
+}
+.enter_code input[type='submit']:focus {
+  outline: none;
+}
+.yo_order {
+  border: 1px solid #dee2e6;
+  padding: 48px;
+}
+.yo_order .prodct {
+  margin-bottom: 48px;
+}
+.yo_order .prodct li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 16px;
+  height: 50px;
+}
+.yo_order .prodct li small {
+  font-size: 16px;
+  color: #000;
+}
+.yo_order .prodct li:nth-child(1) small {
+  font-weight: bold;
+}
+.yo_order .prodct li:nth-child(4) small,
+.yo_order .prodct li:nth-child(5) small {
+  font-weight: 900;
+}
+.yo_order .prodct li:not(:last-child) {
+  border-bottom: 1px solid #dee2e6;
+}
+.pro_acco {
+  margin-bottom: 48px;
+}
+.pro_acco div {
+  margin-bottom: 16px;
+  border: 1px solid #dee2e6;
+  padding: 16px;
+}
+.pro_acco h2 {
+  font-size: 16px;
+  margin-bottom: 0;
+  color: #bb4592;
+  font-weight: normal;
+  cursor: pointer;
+}
+.pro_acco p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.5;
+  padding: 10px 0;
+  transition-duration: 2s;
+}
+
+.place_order input {
+  height: 48px;
+  width: 100%;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid #000;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+@media (max-width: 991px) {
+  .coupon_code {
+    min-width: 100%;
+  }
+  .enter_code {
+    padding: 16px;
+  }
+  .yo_order {
+    padding: 16px;
+  }
+}

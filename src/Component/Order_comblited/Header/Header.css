@@ -1,0 +1,60 @@
+.order_com {
+  padding-bottom: 100px;
+  height: 100vh;
+  min-height: 600px;
+  position: relative;
+}
+.order_com .app_order_com {
+  position: absolute;
+
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  text-align: center;
+}
+.app_order_com svg {
+  margin-bottom: 48px;
+  font-size: 72px;
+  text-align: center;
+  color: #b84592;
+}
+
+.app_order_com h1 {
+  margin-bottom: 8px;
+  font-size: 72px;
+  color: #000;
+
+  font-weight: normal;
+}
+.app_order_com p {
+  margin-bottom: 48px;
+  font-size: 20px;
+  color: #333333;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+}
+.app_order_com button {
+  height: 38px;
+  width: 126px;
+  border: none;
+  border: 1px solid #000;
+  color: #000;
+  font-size: 11px;
+  padding: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  transition-duration: 0.5s;
+  font-weight: bold;
+}
+.app_order_com button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .app_order_com {
+    position: relative;
+    top: 10px;
+  }
+}

@@ -1,0 +1,30 @@
+.customer {
+  padding: 100px 0;
+}
+
+.cus_link {
+  margin-bottom: 48px;
+  border: 1px solid #dee2e6 !important;
+}
+.cus_link p {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  padding: 24px;
+}
+.cus_link a {
+  color: #bb4592;
+}
+
+.app_customer .billing_coupon {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+@media (max-width: 991px) {
+  .customer {
+    padding: 50px 0;
+  }
+  .app_customer .billing_coupon {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,78 @@
+footer {
+  padding: 100px 0;
+  background-color: #ffffff;
+  height: max-content;
+}
+.app_footer {
+  display: flex;
+  column-gap: 50px;
+}
+.app-content {
+  margin-bottom: 40px;
+  width: 41.7%;
+}
+.app-content h2 {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #333333;
+  font-weight: normal;
+}
+.app-content p {
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: #333333;
+  line-height: 1.5;
+}
+.app-content p:nth-child(3) {
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: #333333;
+  line-height: 1.5;
+}
+.app-content .summite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-content .summite input {
+  background-color: transparent;
+  width: 69.67%;
+  padding: 10px;
+  height: 48px;
+  font-size: 16px;
+  border: none;
+  border-top: 1px solid #43434d;
+  border-right: none;
+  border-left: 1px solid #43434d;
+  border-bottom: 1px solid #43434d;
+}
+.app-content .summite input:nth-child(2) {
+  background-color: #000;
+  height: 48px;
+  border: none;
+  border-top: 1px solid #43434d;
+  border-left: none;
+  border-right: 1px solid #43434d;
+  border-bottom: 1px solid #43434d;
+  width: calc(100% - 69.67%);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.app-content .summite input:focus {
+  outline: none;
+}
+.app-content .summite:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .app_footer {
+    flex-wrap: wrap;
+  }
+  .app-content {
+    width: 100%;
+  }
+}

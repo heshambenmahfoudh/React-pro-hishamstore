@@ -1,0 +1,147 @@
+.coupon_pro {
+  display: flex;
+  justify-content: space-between;
+  gap: 63px;
+  flex-wrap: wrap;
+}
+
+.copun_update_cart,
+.copun_total_cart {
+  min-width: calc(50% - 15px);
+}
+
+.coup_upd_sub {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 48px;
+}
+.coup_upd_sub > input {
+  width: calc(50% - 15px);
+  padding: 12px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border: 1px solid #000;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 11px;
+  cursor: pointer;
+}
+.coup_upd_sub > input:last-child {
+  background-color: transparent;
+  color: #000;
+  transition: 0.5s;
+}
+.coup_upd_sub > input:last-child:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.coup_upd_form h2 {
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.coup_upd_form p {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+.coup_upd_form div {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px !important;
+  flex-wrap: wrap;
+}
+.coup_upd_form input {
+  padding: 10px;
+  height: 48px;
+  width: 350px;
+  font-size: 11px;
+  text-transform: uppercase;
+  border: none;
+  height: 48px;
+  border: 1px solid #000;
+  cursor: pointer;
+  outline: none;
+  font-size: 13px;
+}
+.coup_upd_form input:focus {
+  border: 1px solid #b86dbe;
+}
+
+.coup_upd_form input:last-child {
+  width: calc(100% - 380px);
+  background-color: #000;
+  color: #fff;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+.copun_total_cart {
+  min-width: 283.25px;
+}
+.copun_total_cart h2 {
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: right;
+  position: relative;
+}
+.copun_total_cart h2:before {
+  position: absolute;
+  content: '';
+  bottom: -8px;
+  right: -15px;
+  width: calc(100% + 30px);
+  height: 1px;
+  background-color: #dee2e6;
+  text-align: center;
+}
+.copun_total_cart ul {
+  margin: 48px 0;
+}
+.copun_total_cart ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.copun_total_cart ul li small {
+  font-size: 16px;
+  color: #000;
+}
+.copun_total_cart ul li small:last-child {
+  font-weight: bold;
+}
+.copun_total_cart input {
+  height: 50px;
+  width: 100%;
+  font-size: 11px;
+  color: #fff;
+  border: none;
+  border: 1px solid #000;
+  background: #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .copun_update_cart,
+  .copun_total_cart {
+    width: 100%;
+  }
+  .coup_upd_form input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .coup_upd_form input:last-child {
+    width: 40%;
+  }
+  .coupon_pro {
+    gap: 0;
+  }
+  .coupon_pro {
+    margin-top: 10px;
+  }
+}

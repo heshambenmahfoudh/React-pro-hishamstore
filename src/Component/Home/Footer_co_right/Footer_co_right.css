@@ -1,0 +1,52 @@
+.c_right {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.c_right .c_right_icon {
+  margin-bottom: 16px;
+  display: flex;
+}
+.c_right .c_right_icon a {
+  margin-right: 5px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #f9f8f8;
+  transition-duration: 0.5s;
+  font-size: 14px;
+  color: #000;
+}
+.c_right .c_right_icon a:hover {
+  background: #c769a8;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+.c_right p {
+  margin-bottom: 16px;
+  font-size: 14px;
+  text-align: center;
+  width: fit-content;
+  line-height: 2;
+  color: #333333;
+}
+
+.c_right p a {
+  position: relative;
+  color: #333333;
+}
+.c_right p a::before {
+  position: absolute;
+  content: '';
+  width: 46px;
+  right: 0;
+  height: 1px;
+  background-color: #333333;
+  bottom: -2px;
+}

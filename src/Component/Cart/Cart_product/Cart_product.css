@@ -1,0 +1,122 @@
+.cart_pro {
+  padding: 100px 0;
+}
+
+.table_pro {
+  min-width: 100%;
+  user-select: none;
+  margin-bottom: 48px;
+}
+.table_pro thead tr td {
+  padding: 30px;
+  text-align: center;
+  color: #212529;
+  font-size: 18px;
+  font-weight: bold;
+}
+.table_pro thead tr td:first-child {
+  width: 200px;
+  height: 90px;
+}
+.table_pro tr td {
+  border-bottom: 1px solid #dee2e6;
+  border-left: 1px solid#dee2e6;
+}
+.table_pro thead tr td {
+  border-top: 1px solid #dee2e6;
+}
+.table_pro tr td:last-child {
+  border-right: 1px solid #dee2e6;
+}
+
+.table_pro tbody tr td {
+  padding: 20px;
+  text-align: center;
+  color: #212529;
+  font-size: 16px;
+}
+.table_pro tbody tr td:last-child span {
+  width: 30px;
+  height: 22px;
+  display: block;
+  background-color: #000;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.table_pro tbody tr td div {
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+.table_pro tr td div span {
+  min-width: 40px;
+  min-height: 48px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table_pro tr td div button {
+  font-size: 17px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  width: 30px;
+  height: 48px;
+  padding: 15px 10px;
+  transition: 0.5s ease;
+  outline: none;
+  cursor: pointer;
+}
+.table_pro tr td div button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.table_pro tbody tr td:first-child {
+  width: 200px;
+  height: 200px;
+}
+.table_pro tbody tr td img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 991px) {
+  .cart_pro {
+    padding: 50px 0;
+  }
+
+  .app_pro {
+    overflow-x: auto;
+  }
+  .app_pro::-webkit-scrollbar {
+    background-color: rgb(138, 128, 128);
+    cursor: pointer;
+    display: block;
+    border-radius: 5px;
+  }
+
+  .table_pro tr td div button,
+  .table_pro tr td div span {
+    width: 30px;
+    height: 48px;
+    transition: 0.5s ease;
+  }
+
+  .table_pro tbody tr td:first-child {
+    width: 100px;
+    height: 100px;
+  }
+  /* .table_pro tr td div span {
+    min-width: 70px;
+    min-height: 48px;
+  } */
+}
