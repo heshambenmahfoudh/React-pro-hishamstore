@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/React-pro-hishamstore/static/css/main.3c2f9111.css",
+    "main.js": "/React-pro-hishamstore/static/js/main.9338b944.js",
+    "static/media/hero-slider-4-min.jpg": "/React-pro-hishamstore/static/media/hero-slider-4-min.02150816651ade521783.jpg",
+    "static/media/hero-slider-3-min.jpg": "/React-pro-hishamstore/static/media/hero-slider-3-min.3d729118e59f793bcafe.jpg",
+    "static/media/slider_1.jpg": "/React-pro-hishamstore/static/media/slider_1.66dcd409bb3dc8148184.jpg",
+    "static/media/slider_2.jpg": "/React-pro-hishamstore/static/media/slider_2.e8c6f5f3b44eed687ae8.jpg",
+    "static/media/person_2.jpg": "/React-pro-hishamstore/static/media/person_2.e9f79eedc16778f96998.jpg",
+    "static/media/sweater1min.jpg": "/React-pro-hishamstore/static/media/sweater1min.12c2b30217f69094931c.jpg",
+    "static/media/person_1.jpg": "/React-pro-hishamstore/static/media/person_1.b83085b545182a838d25.jpg",
+    "static/media/jacket1min.jpg": "/React-pro-hishamstore/static/media/jacket1min.ec00df8ed2e8e39cf9c3.jpg",
+    "static/media/person_3.jpg": "/React-pro-hishamstore/static/media/person_3.5673a1f2bcbea643e91f.jpg",
+    "static/media/shoe1min.jpg": "/React-pro-hishamstore/static/media/shoe1min.0243e7c377a7be78db60.jpg",
+    "static/media/sweater2min.jpg": "/React-pro-hishamstore/static/media/sweater2min.a95c224eb1238411d662.jpg",
+    "static/media/sock1min.jpg": "/React-pro-hishamstore/static/media/sock1min.07fe0092f07b47ba4d33.jpg",
+    "static/media/bottoms1min.jpg": "/React-pro-hishamstore/static/media/bottoms1min.0c0fe9aa8f154652bafe.jpg",
+    "static/media/watch1min.jpg": "/React-pro-hishamstore/static/media/watch1min.25c1145dabb35972074b.jpg",
+    "index.html": "/React-pro-hishamstore/index.html",
+    "main.3c2f9111.css.map": "/React-pro-hishamstore/static/css/main.3c2f9111.css.map",
+    "main.9338b944.js.map": "/React-pro-hishamstore/static/js/main.9338b944.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c2f9111.css",
+    "static/js/main.9338b944.js"
+  ]
+}
