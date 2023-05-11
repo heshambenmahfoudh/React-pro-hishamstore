@@ -13,7 +13,7 @@ import { AiOutlineReload } from 'react-icons/ai'
 export const header = [
   {
     bgc: slider_1,
-    h1: 'Sell products the easy way with UntreeStore by',
+    h1: 'Sell products the easy way with HishamStore by',
     span: 'hesham .com',
     btn: 'explore now',
   },

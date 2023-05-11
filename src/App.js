@@ -1,36 +1,38 @@
 import React from 'react'
 import './App.css'
-import Contact from './Component/Contact/Contact'
-import Home from './Component/Home/Home'
+import Contact from './Page/Contact'
+import Home from './Page/Home'
 import Footer from './Component/Home/Footer/Footer'
-import Shop from './Component/Shop/Shop'
-import Element from './Component/Element/Element'
-import Cart from './Component/Cart/Cart'
-import Checkout from './Component/Checkout/Checkout'
-import Order_comblited from './Component/Order_comblited/Order_comblited'
+import Shop from './Page/Shop'
+import Element from './Page/Element'
+import Cart from './Page/Cart'
+import Checkout from "./Page/Checkout"
+import Order_comblited from './Page/Order_comblited'
 import Navbar from './Component/Home/Navbar/Navbar'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import {  Routes, Route } from 'react-router-dom'
 
 const App = () => {
   return (
     <div className="App">
-      <BrowserRouter>
+     
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="*" element={<Home />} />
-          <Route exact path="/cart" element={<Cart />} />
-          <Route exact path="/element" element={<Element />} />
-          <Route exact path="/contact" element={<Contact />} />
-          <Route exact path="/checkout" element={<Checkout />} />
-          <Route exact path="/shop" element={<Shop />} />
-          <Route exact path="/order_comblited" element={<Order_comblited />} />
-          <Route exact path="/element" element={<Element />} />
+          <Route  path="*" element={<Home />} />
+          <Route  path="/cart" element={<Cart />} />
+          <Route  path="/element" element={<Element />} />
+          <Route  path="/contact" element={<Contact />} />
+          <Route  path="/checkout" element={<Checkout />} />
+          <Route  path="/shop" element={<Shop />} />
+          <Route  path="/order_comblited" element={<Order_comblited />} />
         </Routes>
         <div className="Footer">
           <Footer />
         </div>
-      </BrowserRouter>
+        <div>
+
+        </div>
+     
     </div>
   )
 }

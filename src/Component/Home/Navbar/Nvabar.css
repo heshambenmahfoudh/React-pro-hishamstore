@@ -65,13 +65,14 @@
 .navbar .links_navigation li a {
   color: rgba(0, 0, 0, 0.5);
 }
+
 .links_navigation li a.active {
-  color: #000;
+  color: #000 !important;
 }
 .navbar .links_navigation .page > li a.active {
   color: #b84592;
 }
-.navbar .links_navigation > li a.active::before {
+.navbar .links_navigation  a.active::after {
   transition-duration: 2s ease;
   position: absolute;
   content: '';

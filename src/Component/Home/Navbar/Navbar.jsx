@@ -41,7 +41,9 @@ const Navbar = () => {
 
           <ul className="links_navigation">
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink exact to="/">
+                Home
+              </NavLink>
             </li>
             <li>
               <NavLink to="/shop">Shop</NavLink>
